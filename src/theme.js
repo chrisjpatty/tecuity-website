@@ -4,6 +4,16 @@ export default {
     rgbaFunction: opacity => `rgba(149, 201, 61, ${opacity})`,
     textOn: '#ffffff'
   },
+  primaryLight: {
+    color: '#a0d448',
+    rgbaFunction: opacity => `rgba(160, 212, 72, ${opacity})`,
+    textOn: '#ffffff'
+  },
+  primaryDark: {
+    color: '#75a623',
+    rgbaFunction: opacity => `rgba(117, 166, 35, ${opacity})`,
+    textOn: '#ffffff'
+  },
   sos: {
     color: '#f5771f',
     rgbaFunction: opacity => `rgba(245, 119, 31, ${opacity})`,
